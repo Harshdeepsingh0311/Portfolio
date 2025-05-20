@@ -36,7 +36,7 @@ export const TestimonialsSection = () => {
         />
 
         <div className="mt-16 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
-          <div className="flex gap-8 flex-none animate-move-left [animation-duration:90s] hover:[animation-play-state:paused]">
+          <div className="flex gap-8 flex-none animate-move-left [animation-duration:10s] hover:[animation-play-state:paused]">
             {[...new Array(2)].fill(0).map((_, idx) => (
               <Fragment key={idx}>
                 {testimonials.map((testimonial) => (
@@ -56,7 +56,8 @@ export const TestimonialsSection = () => {
                         <div className="font-semibold">{testimonial.name}</div>
                         <div className="text-md text-white/40">
                           {testimonial.position} &nbsp;
-                          <span className="sm:-ml-2 lg:ml-0">&bull;</span> &nbsp;
+                          <span className="sm:-ml-2 lg:ml-0">&bull;</span>{" "}
+                          &nbsp;
                           <span>{testimonial.year}</span>
                         </div>
                       </div>
