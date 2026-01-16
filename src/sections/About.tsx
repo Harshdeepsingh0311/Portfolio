@@ -15,6 +15,7 @@ import cIcon from "@/assets/icons/c.svg";
 import rosIcon from "@/assets/icons/ros.svg";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
+import supabase from "@/assets/icons/supabase.svg";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
@@ -25,16 +26,8 @@ import { EducationCard } from "@/components/EducationCard";
 
 const toolboxItems = [
   {
-    title: "JavaScript",
-    iconType: JSIcon,
-  },
-  {
-    title: "HTML5",
-    iconType: HTMLIcon,
-  },
-  {
-    title: "CSS3",
-    iconType: CSSIcon,
+    title: "Python",
+    iconType: pythonIcon,
   },
   {
     title: "React",
@@ -45,12 +38,24 @@ const toolboxItems = [
     iconType: nextIcon,
   },
   {
-    title: "ROS",
-    iconType: rosIcon,
+    title: "JavaScript",
+    iconType: JSIcon,
   },
   {
-    title: "Python",
-    iconType: pythonIcon,
+    title: "Supabase",
+    iconType: supabase,
+  },
+  {
+    title: "HTML5",
+    iconType: HTMLIcon,
+  },
+  {
+    title: "CSS3",
+    iconType: CSSIcon,
+  },
+  {
+    title: "ROS",
+    iconType: rosIcon,
   },
   {
     title: "Java",

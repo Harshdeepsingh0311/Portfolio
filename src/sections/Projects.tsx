@@ -1,6 +1,7 @@
 import projectInferno from "@/assets/images/projectInferno.png";
 import projectAlumniAffairs from "@/assets/images/projectAlumniAffairs.png";
 import projectSpotify from "@/assets/images/spotify.png";
+import deployme from "@/assets/images/deployme.png"
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -10,16 +11,13 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Inferno DTU",
-    year: "2023",
-    title: "Portfolio Page for Team Inferno",
-    results: [
-      { title: "Attracted more sponsors by 40%" },
-      { title: "Increased traffic by 35%" },
-    ],
-    link: "https://harshdeepsingh0311.github.io/InfernoDTU",
-    code: "https://github.com/Harshdeepsingh0311/InfernoDTU",
-    image: projectInferno,
+    company: "DeployMe",
+    year: "2026",
+    title: "DeployMe - Portfolio Generation Platform",
+    results: [{ title: "No-code portfolio generation workflow" }, { title: "Shareable, auto-generated portfolio URLs" }, {title: "Centralized dashboard-based content management"}],
+    code: "https://github.com/Harshdeepsingh0311/DeployMe",
+    link: "https://deployme-dev.vercel.app",
+    image: deployme,
   },
   {
     company: "Delhi Technological University",
@@ -35,13 +33,16 @@ const portfolioProjects = [
     image: projectAlumniAffairs,
   },
   {
-    company: "Self Project",
+    company: "Inferno DTU",
     year: "2023",
-    title: "Spotify UI Clone",
-    results: [{ title: "Cloned UI" }, { title: "Static Website" }],
-    code: "https://github.com/Harshdeepsingh0311/Spotify-UI-Clone",
-    link: "https://harshdeepsingh0311.github.io/Spotify-UI-Clone/",
-    image: projectSpotify,
+    title: "Portfolio Page for Team Inferno",
+    results: [
+      { title: "Attracted more sponsors by 40%" },
+      { title: "Increased traffic by 35%" },
+    ],
+    link: "https://harshdeepsingh0311.github.io/InfernoDTU",
+    code: "https://github.com/Harshdeepsingh0311/InfernoDTU",
+    image: projectInferno,
   },
 ];
 
