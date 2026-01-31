@@ -3,7 +3,7 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 const footerLinks = [
   {
     title: "Instagram",
-    link: "https://www.instagram.com/harsh.codes/",
+    link: "https://www.instagram.com/harshdeep.sxngh/",
   },
   {
     title: "LinkedIn",
