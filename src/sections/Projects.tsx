@@ -1,7 +1,8 @@
 import projectInferno from "@/assets/images/projectInferno.png";
 import projectAlumniAffairs from "@/assets/images/projectAlumniAffairs.png";
 import projectSpotify from "@/assets/images/spotify.png";
-import deployme from "@/assets/images/deployme.png"
+import codeRoyale from "@/assets/images/coderoyale.png";
+import deployme from "@/assets/images/deployme.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -11,13 +12,36 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "DeployMe",
+    company: "Deploy Me",
     year: "2026",
-    title: "DeployMe - Portfolio Generation Platform",
-    results: [{ title: "No-code portfolio generation workflow" }, { title: "Shareable, auto-generated portfolio URLs" }, {title: "Centralized dashboard-based content management"}],
+    title: "Deploy Me - Portfolio Generation Platform",
+    results: [
+      { title: "No-code portfolio generation workflow" },
+      { title: "Shareable, auto-generated portfolio URLs" },
+      { title: "Centralized dashboard-based content management" },
+    ],
     code: "https://github.com/Harshdeepsingh0311/DeployMe",
     link: "https://deployme-dev.vercel.app",
     image: deployme,
+  },
+  {
+    company: "Code Royale",
+    year: "2026",
+    title: "Code Royale - Battle Style Coding Game",
+    results: [
+      { title: "Real-time multiplayer rooms powered by Socket.IO" },
+      {
+        title:
+          "Dynamic room creation, lobby system, and host-controlled game start",
+      },
+      {
+        title:
+          "Scalable backend architecture with room-based memory management",
+      },
+    ],
+    code: "https://github.com/Harshdeepsingh0311/CodeRoyale",
+    link: "https://playe-coderoyale.vercel.app",
+    image: codeRoyale,
   },
   {
     company: "Delhi Technological University",
