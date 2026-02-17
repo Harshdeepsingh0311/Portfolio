@@ -12,21 +12,8 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Deploy Me",
-    year: "2026",
-    title: "Deploy Me - Portfolio Generation Platform",
-    results: [
-      { title: "No-code portfolio generation workflow" },
-      { title: "Shareable, auto-generated portfolio URLs" },
-      { title: "Centralized dashboard-based content management" },
-    ],
-    code: "https://github.com/Harshdeepsingh0311/DeployMe",
-    link: "https://deployme-dev.vercel.app",
-    image: deployme,
-  },
-  {
     company: "Code Royale",
-    year: "2026",
+    year: "Currently Building",
     title: "Code Royale - Battle Style Coding Game",
     results: [
       { title: "Real-time multiplayer rooms powered by Socket.IO" },
@@ -42,6 +29,19 @@ const portfolioProjects = [
     code: "https://github.com/Harshdeepsingh0311/CodeRoyale",
     link: "https://playe-coderoyale.vercel.app",
     image: codeRoyale,
+  },
+  {
+    company: "Deploy Me",
+    year: "2026",
+    title: "Deploy Me - Portfolio Generation Platform",
+    results: [
+      { title: "No-code portfolio generation workflow" },
+      { title: "Shareable, auto-generated portfolio URLs" },
+      { title: "Centralized dashboard-based content management" },
+    ],
+    code: "https://github.com/Harshdeepsingh0311/DeployMe",
+    link: "https://deployme-dev.vercel.app",
+    image: deployme,
   },
   {
     company: "Delhi Technological University",
@@ -134,7 +134,7 @@ export const ProjectsSection = () => {
                     <Image
                       src={project.image}
                       alt={project.title}
-                      className="mt-8 lg:mt-0 lg:absolute lg:h-full "
+                      className="mt-8 lg:mt-0 lg:absolute lg:h-full transition-transform duration-500 ease-in-out hover:scale-80 hover:-translate-x-96"
                     />
                   </a>
                 </div>
