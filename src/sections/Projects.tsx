@@ -27,7 +27,7 @@ const portfolioProjects = [
       },
     ],
     code: "https://github.com/Harshdeepsingh0311/CodeRoyale",
-    link: "https://playe-coderoyale.vercel.app",
+    link: "https://play-coderoyale.vercel.app",
     image: codeRoyale,
   },
   {
